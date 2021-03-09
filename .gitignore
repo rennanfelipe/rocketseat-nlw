@@ -1,3 +1,3 @@
-./work-dir/api/node_modules
+./work-dir/api/node_modules/
 ./work-dir/api/*.log
 ./work-dir/api/*.lock
