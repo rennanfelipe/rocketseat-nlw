@@ -1,4 +1,7 @@
+import 'reflect-metadata';
 import express, { response } from 'express';
+
+import './database';
 
 const app = express();
 
