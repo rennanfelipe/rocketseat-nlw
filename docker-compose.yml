@@ -10,7 +10,7 @@ services:
       - ./work-dir/:/home/node/app
     ports:
       - "3000:3000"
-    command: bash -c "cd ./api && tail -f test.txt"
+#    command: bash -c "cd ./api && tail -f test.txt"
     command: bash -c "cd ./api && DEBUG=api:* yarn dev"
     links:
       - mongo
